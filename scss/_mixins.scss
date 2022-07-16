@@ -1,0 +1,17 @@
+@mixin flex-jc($justify) {
+  display: flex;
+  justify-content: $justify;
+}
+@mixin flex-ai($align) {
+  display: flex;
+  align-items: $align;
+}
+@mixin flex-jc-ai($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin flex-direct($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
