@@ -145,7 +145,6 @@ a {
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "BPGVenuri2010";
   src: url("../../assets/fonts/venuri/BPGVenuriCaps2020.woff2") format("woff2"), url("../../assets/fonts/venuri/BPGVenuriCaps2020.woff") format("woff"), url("../../assets/fonts/venuri/BPGVenuriCaps2020.ttf") format("truetype");
@@ -153,7 +152,6 @@ a {
   font-style: normal;
   font-display: swap;
 }
-
 .container {
   max-width: 1536px;
   width: 95%;
@@ -193,7 +191,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .logoStyle .main h2 {
   font-family: "BPGVenuri2010";
   font-size: 28px;
@@ -202,7 +199,6 @@ a {
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-
 .logoStyle .main h2:hover {
   color: #eed370;
 }
@@ -210,7 +206,6 @@ a {
 .logo {
   margin-right: 30px;
 }
-
 .logo img {
   width: 30px;
   height: 67px;
@@ -255,7 +250,13 @@ a {
 #project {
   margin-bottom: 100px;
 }
-
+#project h5 {
+  font-family: "BPGVenuri2010";
+  font-size: 40px;
+  line-height: 45px;
+  color: #1d2933;
+  width: 100%;
+}
 #project .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,19 +265,16 @@ a {
       flex-wrap: wrap;
   gap: 4rem;
 }
-
 #project .container .inner-cont {
   width: 280px;
-  border-right: 4px solid #EED370;
+  border-right: 4px solid #eed370;
   padding-right: 4rem;
 }
-
 #project .container .inner-cont h3 {
   font-family: "BPGVenuri2010";
   font-size: 20px;
   margin-bottom: 0.3rem;
 }
-
 #project .container .inner-cont p {
   font-family: "DejaVuSans";
   font-size: 15px;
@@ -287,17 +285,14 @@ a {
 body {
   background-color: #f9f7f5;
 }
-
 body header {
   padding: 35px 0;
-  -webkit-box-shadow: #00000029 0 3px 5px;
-          box-shadow: #00000029 0 3px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 5px;
 }
-
 body header .burger-navigation {
   display: none;
 }
-
 body header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,12 +305,10 @@ body header .container {
           align-items: center;
   position: relative;
 }
-
 body header .container .burger-bar {
   display: none;
   cursor: pointer;
 }
-
 body header .container nav {
   padding-left: 10px;
   display: -webkit-box;
@@ -325,7 +318,6 @@ body header .container nav {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body header .container nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,14 +326,12 @@ body header .container nav ul {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body header .container nav ul li {
   position: relative;
   line-height: 40px;
   margin-right: 45px;
   text-align: center;
 }
-
 body header .container nav ul li a {
   color: #1d2933;
   font-size: 18px;
@@ -349,15 +339,12 @@ body header .container nav ul li a {
   -webkit-transition: all ease-in-out 0.2s;
   transition: all ease-in-out 0.2s;
 }
-
 body header .container nav ul li a:hover {
   color: #eed370;
 }
-
 body header .container nav ul :last-child {
   margin-right: 0;
 }
-
 body header .container .sign-in-btn a {
   background-color: #798996;
   color: #fff;
@@ -366,14 +353,12 @@ body header .container .sign-in-btn a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body header .container .sign-in-btn a:hover {
   background-color: #eed370;
   text-decoration: none;
   color: #000000;
   border: none;
 }
-
 body header .container .profile {
   cursor: pointer;
   display: -webkit-box;
@@ -386,14 +371,12 @@ body header .container .profile {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body header .container .profile h5.user {
   margin-right: 22px;
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #1d2933;
 }
-
 body header .container .profile .image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,13 +386,11 @@ body header .container .profile .image {
   background: #e9e9ed;
   border-radius: 50px;
 }
-
 body header .container .profile .image-size {
   width: 86px;
   height: 86px;
   border-radius: 50%;
 }
-
 body header .container .profile-menu {
   position: absolute;
   right: 0;
@@ -418,15 +399,13 @@ body header .container .profile-menu {
           transform: translateY(100%);
   padding: 22px 29px;
   background: #FEFCFB;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
 }
-
 body header .container .profile-menu ul li {
   margin-top: 31px;
   text-align: right;
 }
-
 body header .container .profile-menu ul li a {
   font-family: "DejaVuSans";
   color: #798996;
@@ -434,15 +413,12 @@ body header .container .profile-menu ul li a {
   -webkit-transition: all ease-in-out 0.2s;
   transition: all ease-in-out 0.2s;
 }
-
 body header .container .profile-menu ul li a:hover {
   color: #eed370;
 }
-
 body header .container .profile-menu ul :first-child {
   margin-top: 0;
 }
-
 body main section.poster {
   border: 1px solid #c0d0de;
   margin-bottom: 162px;
@@ -456,7 +432,6 @@ body main section.poster {
           justify-content: center;
   background-color: #1d2933;
 }
-
 body main section.poster .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,23 +444,19 @@ body main section.poster .container {
   max-width: 1536px;
   width: 100%;
 }
-
 body main section.poster .container .text {
   max-width: 469px;
   width: 100%;
 }
-
 body main section.poster .container .text p {
   font-size: 66px;
   line-height: 76px;
   color: #fff9b4;
   font-family: "BPGVenuri2010";
 }
-
 body main section.bank-section {
   padding: 58px 0;
 }
-
 body main section.bank-section .container .alphabets-search .bank-tags {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -497,28 +468,23 @@ body main section.bank-section .container .alphabets-search .bank-tags {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-section .container .alphabets-search .bank-tags div {
   margin-right: 15px;
   padding: 5px 20px;
   background-color: #798996;
   cursor: pointer;
 }
-
 body main section.bank-section .container .alphabets-search .bank-tags div:first-child {
   background-color: #eed370;
 }
-
 body main section.bank-section .container .alphabets-search .bank-tags div:first-child a {
   color: #1d2933;
 }
-
 body main section.bank-section .container .alphabets-search .bank-tags div a {
   font-family: "BPGVenuri2010";
   font-size: 16px;
   color: #f9f7f5;
 }
-
 body main section.bank-section .container .alphabets-search .double {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -531,11 +497,9 @@ body main section.bank-section .container .alphabets-search .double {
           align-items: flex-start;
   margin: 17px 0 30px 0;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet {
   width: 100%;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .en-alphabet {
   margin: 15px 0 25px 0;
   display: -webkit-box;
@@ -548,11 +512,9 @@ body main section.bank-section .container .alphabets-search .double .left-alphab
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .en-alphabet img {
   display: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .en-alphabet .collect-letters {
   width: 85%;
   height: 25px;
@@ -564,11 +526,9 @@ body main section.bank-section .container .alphabets-search .double .left-alphab
           align-items: center;
   overflow-x: auto;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .en-alphabet .collect-letters::-webkit-scrollbar {
   display: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .ge-alphabet {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,11 +537,9 @@ body main section.bank-section .container .alphabets-search .double .left-alphab
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .ge-alphabet img {
   display: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .ge-alphabet .collect-letters {
   width: 85%;
   height: 25px;
@@ -594,26 +552,21 @@ body main section.bank-section .container .alphabets-search .double .left-alphab
   overflow-x: auto;
   margin-left: 0;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .ge-alphabet .collect-letters::-webkit-scrollbar {
   display: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet span {
   font-family: "BPGVenuri2010";
   font-size: 24px;
   margin-right: 15px;
   text-transform: uppercase;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .cont {
   display: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .left-alphabet .desktop-alphabet {
   margin-bottom: 10px;
 }
-
 body main section.bank-section .container .alphabets-search .double .right-search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,36 +582,29 @@ body main section.bank-section .container .alphabets-search .double .right-searc
   border: 1px solid #798996;
   background-color: #fff;
 }
-
 body main section.bank-section .container .alphabets-search .double .right-search input {
   width: 100%;
   height: 50px;
   border: none;
   margin-right: 5px;
 }
-
 body main section.bank-section .container .alphabets-search .double .right-search input:focus-visible {
   outline: none;
 }
-
 body main section.bank-section .container .alphabets-search .double .right-search img {
   margin: 12px 5px 12px 15px;
 }
-
 body main section.bank-section .container .alphabets-search .title-bank {
   border-bottom: 1px solid #1d2933;
 }
-
 body main section.bank-section .container .alphabets-search .title-bank h2 {
   font-family: "BPGVenuri2010";
   font-size: 40px;
   color: #1d2933;
 }
-
 body main section.bank-results {
   margin-bottom: 58px;
 }
-
 body main section.bank-results .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -674,7 +620,6 @@ body main section.bank-results .container {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .result {
   width: 100%;
   display: -webkit-box;
@@ -691,7 +636,6 @@ body main section.bank-results .container .result {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .result .termin-tag-social {
   width: 100%;
   border-bottom: 1px solid #1d2933;
@@ -706,7 +650,6 @@ body main section.bank-results .container .result .termin-tag-social {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .result .termin-tag-social .tagandsocial {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -718,27 +661,23 @@ body main section.bank-results .container .result .termin-tag-social .tagandsoci
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .result .termin-tag-social .tagandsocial .termintag {
   margin-right: 35px;
   padding: 5px 20px;
   background-color: #eed370;
   cursor: pointer;
 }
-
 body main section.bank-results .container .result .termin-tag-social .tagandsocial .termintag a {
   font-family: "BPGVenuri2010";
   font-size: 16px;
   color: #1d2933;
 }
-
 body main section.bank-results .container .result .termin-tag-social h2 {
   font-family: "DejaVuSans";
   font-size: 40px;
   color: #1d2933;
   text-transform: uppercase;
 }
-
 body main section.bank-results .container .result .description {
   width: 90%;
   background-color: #e9e9ed;
@@ -746,7 +685,6 @@ body main section.bank-results .container .result .description {
   padding: 20px 0 20px 20px;
   position: relative;
 }
-
 body main section.bank-results .container .result .description .like {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,36 +709,30 @@ body main section.bank-results .container .result .description .like {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
-
 body main section.bank-results .container .result .description .like:hover {
-  background-color: #2e91ca;
+  background-color: rgb(46, 145, 202);
 }
-
 body main section.bank-results .container .result .description .like img {
   color: #798996;
   width: 41px;
   height: 41px;
 }
-
 body main section.bank-results .container .result .description h2 {
   font-family: "DejaVuSans";
   font-size: 40px;
   color: #1d2933;
   margin-bottom: 12px;
 }
-
 body main section.bank-results .container .result .description .spans .author {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #1d2933;
 }
-
 body main section.bank-results .container .result .description .spans .date {
   font-family: "BPGVenuri2010";
   font-size: 14px;
   color: #798996;
 }
-
 body main section.bank-results .container .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -813,15 +745,12 @@ body main section.bank-results .container .pagination {
           align-items: center;
   width: 100%;
 }
-
 body main section.bank-results .container .pagination .left-arrow {
   display: none;
 }
-
 body main section.bank-results .container .pagination .right-arrow {
   display: none;
 }
-
 body main section.bank-results .container .pagination .page-numbers {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -833,7 +762,6 @@ body main section.bank-results .container .pagination .page-numbers {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .pagination .page-numbers .page-num {
   cursor: pointer;
   margin-right: 3px;
@@ -853,15 +781,12 @@ body main section.bank-results .container .pagination .page-numbers .page-num {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.bank-results .container .pagination .page-numbers .page-num:first-child {
   background-color: #eed370;
 }
-
 body main section.signup-login {
   padding: 100px 0 124px 0;
 }
-
 body main section.signup-login .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -873,15 +798,13 @@ body main section.signup-login .container {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form {
   max-width: 1297px;
   width: 85%;
-  -webkit-box-shadow: #00000029 0 3px 6px;
-          box-shadow: #00000029 0 3px 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 6px;
   background-color: #FEFCFB;
 }
-
 body main section.signup-login .container .toggle-form .titles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -889,7 +812,6 @@ body main section.signup-login .container .toggle-form .titles {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-
 body main section.signup-login .container .toggle-form .titles .btn-login {
   width: 50%;
   outline: none;
@@ -902,7 +824,6 @@ body main section.signup-login .container .toggle-form .titles .btn-login {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-
 body main section.signup-login .container .toggle-form .titles .btn-signup {
   width: 50%;
   outline: none;
@@ -916,7 +837,6 @@ body main section.signup-login .container .toggle-form .titles .btn-signup {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-
 body main section.signup-login .container .toggle-form .login {
   padding: 0 0 50px 0;
   display: -webkit-box;
@@ -933,7 +853,6 @@ body main section.signup-login .container .toggle-form .login {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw {
   width: 75%;
   margin: 55px 0 45px 0;
@@ -948,19 +867,16 @@ body main section.signup-login .container .toggle-form .login .remember-psw {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw .rec-text {
   color: #798996;
   font-size: 18px;
   font-family: "DejaVuSans";
   text-decoration: underline;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw .rec-text:hover {
   color: #000000;
   cursor: pointer;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw .check-remember {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -972,14 +888,12 @@ body main section.signup-login .container .toggle-form .login .remember-psw .che
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw .check-remember label {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
   margin-left: 8px;
 }
-
 body main section.signup-login .container .toggle-form .login .remember-psw .check-remember #remember {
   width: 30px;
   height: 30px;
@@ -988,7 +902,6 @@ body main section.signup-login .container .toggle-form .login .remember-psw .che
   margin-bottom: 0;
   margin-top: 0;
 }
-
 body main section.signup-login .container .toggle-form .login input {
   background: none;
   border: #798996 1px solid;
@@ -998,35 +911,34 @@ body main section.signup-login .container .toggle-form .login input {
   padding: 23px 40px;
   margin-top: 43px;
 }
-
 body main section.signup-login .container .toggle-form .login input:focus {
   border: 3px solid;
 }
-
 body main section.signup-login .container .toggle-form .login input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
+body main section.signup-login .container .toggle-form .login input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  font-size: 18px;
+  color: #798996;
+}
 body main section.signup-login .container .toggle-form .login input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .login input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .login input ::placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .login button {
   background: #798996;
   outline: none;
@@ -1041,31 +953,26 @@ body main section.signup-login .container .toggle-form .login button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body main section.signup-login .container .toggle-form .login button:hover {
   background-color: #eed370;
   text-decoration: none;
   color: #000000;
 }
-
 body main section.signup-login .container .toggle-form .login .no-account {
   font-family: "DejaVuSans";
   font-size: 18px;
   width: 75%;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .login .no-account #not-account {
   vertical-align: top;
   cursor: pointer;
   color: #798996;
   text-decoration: underline;
 }
-
 body main section.signup-login .container .toggle-form .login .no-account #not-account:hover {
   color: #000000;
 }
-
 body main section.signup-login .container .toggle-form .login span {
   vertical-align: middle;
   margin-top: 10px;
@@ -1073,7 +980,6 @@ body main section.signup-login .container .toggle-form .login span {
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.signup-login .container .toggle-form .login span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1082,11 +988,9 @@ body main section.signup-login .container .toggle-form .login span div {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .login span div img {
   margin-right: 15px;
 }
-
 body main section.signup-login .container .toggle-form .signup {
   padding: 0 0 50px 0;
   display: -webkit-box;
@@ -1103,7 +1007,6 @@ body main section.signup-login .container .toggle-form .signup {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .signup span {
   vertical-align: middle;
   margin-top: 10px;
@@ -1111,7 +1014,6 @@ body main section.signup-login .container .toggle-form .signup span {
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.signup-login .container .toggle-form .signup span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1120,11 +1022,9 @@ body main section.signup-login .container .toggle-form .signup span div {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .signup span div img {
   margin-right: 15px;
 }
-
 body main section.signup-login .container .toggle-form .signup input {
   background: none;
   border: #798996 1px solid;
@@ -1134,41 +1034,39 @@ body main section.signup-login .container .toggle-form .signup input {
   padding: 23px 40px;
   margin-top: 45px;
 }
-
 body main section.signup-login .container .toggle-form .signup input:focus {
   border: 3px solid;
 }
-
 body main section.signup-login .container .toggle-form .signup input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
+body main section.signup-login .container .toggle-form .signup input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  font-size: 18px;
+  color: #798996;
+}
 body main section.signup-login .container .toggle-form .signup input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .signup input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .signup input ::placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .signup input::-webkit-outer-spin-button,
 body main section.signup-login .container .toggle-form .signup input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 body main section.signup-login .container .toggle-form .signup button {
   background: #798996;
   outline: none;
@@ -1184,13 +1082,11 @@ body main section.signup-login .container .toggle-form .signup button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body main section.signup-login .container .toggle-form .signup button:hover {
   background-color: #eed370;
   text-decoration: none;
   color: #000000;
 }
-
 body main section.signup-login .container .toggle-form .signup .robot-rules {
   width: 75%;
   margin-top: 55px;
@@ -1204,13 +1100,11 @@ body main section.signup-login .container .toggle-form .signup .robot-rules {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .signup .robot-rules span {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.signup-login .container .toggle-form .signup .robot-rules .rules {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1219,7 +1113,6 @@ body main section.signup-login .container .toggle-form .signup .robot-rules .rul
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .toggle-form .signup .robot-rules .rules #rules {
   margin: 0;
   padding: 0;
@@ -1227,34 +1120,29 @@ body main section.signup-login .container .toggle-form .signup .robot-rules .rul
   height: 30px;
   margin-right: 8px;
 }
-
 body main section.signup-login .container .toggle-form .signup .robot-rules .rules label a {
   color: #798996;
   font-size: 18px;
   font-family: "DejaVuSans";
 }
-
 body main section.signup-login .container .click-recovery {
   display: none;
 }
-
 body main section.signup-login .container .recovery-password {
   display: none;
   max-width: 1297px;
   width: 85%;
-  -webkit-box-shadow: #00000029 0 3px 6px;
-          box-shadow: #00000029 0 3px 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 6px;
   background-color: #FEFCFB;
   text-align: center;
   padding: 43px 0 74px 0;
 }
-
 body main section.signup-login .container .recovery-password .recovery-title {
   font-family: "BPGVenuri2010";
   font-size: 40px;
   color: #1d2933;
 }
-
 body main section.signup-login .container .recovery-password .password-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1267,7 +1155,6 @@ body main section.signup-login .container .recovery-password .password-form {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .recovery-password .password-form input {
   background: none;
   border: #798996 1px solid;
@@ -1278,31 +1165,29 @@ body main section.signup-login .container .recovery-password .password-form inpu
   margin-top: 43px;
   font-size: 18px;
 }
-
 body main section.signup-login .container .recovery-password .password-form input:focus {
   border: 3px solid;
 }
-
 body main section.signup-login .container .recovery-password .password-form input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   color: #798996;
 }
-
+body main section.signup-login .container .recovery-password .password-form input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  color: #798996;
+}
 body main section.signup-login .container .recovery-password .password-form input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   color: #798996;
 }
-
 body main section.signup-login .container .recovery-password .password-form input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   color: #798996;
 }
-
 body main section.signup-login .container .recovery-password .password-form input ::placeholder {
   font-family: "DejaVuSans";
   color: #798996;
 }
-
 body main section.signup-login .container .recovery-password .password-form span {
   vertical-align: middle;
   margin-top: 10px;
@@ -1310,7 +1195,6 @@ body main section.signup-login .container .recovery-password .password-form span
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.signup-login .container .recovery-password .password-form span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1319,11 +1203,9 @@ body main section.signup-login .container .recovery-password .password-form span
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.signup-login .container .recovery-password .password-form span div img {
   margin-right: 15px;
 }
-
 body main section.signup-login .container .recovery-password .password-form button {
   background: #798996;
   outline: none;
@@ -1338,17 +1220,14 @@ body main section.signup-login .container .recovery-password .password-form butt
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body main section.signup-login .container .recovery-password .password-form button:hover {
   background-color: #eed370;
   text-decoration: none;
   color: #000000;
 }
-
 body main section.signup-login .container .show-recovery-form {
   display: block;
 }
-
 body main section.words .container {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1364,16 +1243,13 @@ body main section.words .container {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.words .container .words-title {
   font-size: 40px;
   color: #1d2933;
 }
-
 body main section.words .container .words-title h2 {
   font-family: "BPGVenuri2010";
 }
-
 body main section.words .container .word-blocks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1384,32 +1260,28 @@ body main section.words .container .word-blocks {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 body main section.words .container .word-blocks .block-div {
   max-width: 511px;
   width: 33%;
   padding: 30px 180px 36px 45px;
   margin: 35px 0;
-  -webkit-box-shadow: #00000029 0 3px 5px;
-          box-shadow: #00000029 0 3px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.1607843137) 0 3px 5px;
   background: #FEFCFB;
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
-
 body main section.words .container .word-blocks .block-div a h2 {
   color: #798996;
   font-size: 46px;
   text-transform: capitalize;
   margin-bottom: 17px;
 }
-
 body main section.words .container .word-blocks .block-div:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
 body main section.about-project {
   margin-top: 178px;
   margin-bottom: 134px;
@@ -1420,7 +1292,6 @@ body main section.about-project {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 body main section.about-project .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1432,17 +1303,14 @@ body main section.about-project .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 body main section.about-project .container .left-block {
   max-width: 768px;
   width: 100%;
 }
-
 body main section.about-project .container .left-block .about-project-text {
   border-left: 4px solid #eed370;
   padding-left: 30px;
 }
-
 body main section.about-project .container .left-block .about-project-text h5 {
   font-size: 40px;
   font-family: "BPGVenuri2010";
@@ -1452,11 +1320,9 @@ body main section.about-project .container .left-block .about-project-text h5 {
   transition: all ease-in-out 0.2s;
   cursor: pointer;
 }
-
 body main section.about-project .container .left-block .about-project-text h5:hover {
   color: #eed370;
 }
-
 body main section.about-project .container .left-block .about-project-text p {
   max-width: 724px;
   margin: 45px 0;
@@ -1465,7 +1331,6 @@ body main section.about-project .container .left-block .about-project-text p {
   color: #1d2933;
   line-height: 26px;
 }
-
 body main section.about-project .container a .btn-your-term {
   border-radius: 4px;
   margin-left: 30px;
@@ -1485,35 +1350,28 @@ body main section.about-project .container a .btn-your-term {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body main section.about-project .container a .btn-your-term:hover {
   background-color: #eed370;
 }
-
 body main section.about-project .container a .btn-your-term:hover p {
   color: #000000;
 }
-
 body main section.about-project .container a .btn-your-term p {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #ffffff;
 }
-
 body main .chatbot {
   position: fixed;
   bottom: 70px;
   right: 50px;
 }
-
 body main section.about-project-section .container .first {
   margin-top: 70px;
 }
-
 body main section.about-project-section .container .second {
   margin: 110px 0;
 }
-
 body main section.about-project-section .container .project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1523,12 +1381,10 @@ body main section.about-project-section .container .project {
           justify-content: space-between;
   margin-right: 10%;
 }
-
 body main section.about-project-section .container .project .text {
   max-width: 724px;
   width: 100%;
 }
-
 body main section.about-project-section .container .project .text h5 {
   font-family: "BPGVenuri2010";
   font-size: 40px;
@@ -1536,7 +1392,6 @@ body main section.about-project-section .container .project .text h5 {
   color: #1d2933;
   margin-bottom: 45px;
 }
-
 body main section.about-project-section .container .project .text .texts {
   color: #000000;
   font-family: "DejaVuSans";
@@ -1544,11 +1399,9 @@ body main section.about-project-section .container .project .text .texts {
   line-height: 26px;
   margin-bottom: 8px;
 }
-
 body main section.about-project-section .container .project .text .texts .more-texts {
   display: none;
 }
-
 body main section.about-project-section .container .project .text .more-click {
   font-family: "BPGVenuri2010";
   font-size: 18px;
@@ -1557,19 +1410,15 @@ body main section.about-project-section .container .project .text .more-click {
   line-height: 22px;
   cursor: pointer;
 }
-
 body main section.about-project-section .container .project .text .more-click:hover {
   color: #000000;
 }
-
 body main section.about-project-section .container .project .show-more .texts .more-texts {
   display: inline;
 }
-
 body main section.partners-section .container .organisation-partenrs {
   margin-bottom: 114px;
 }
-
 body main section.partners-section .container .organisation-partenrs p {
   font-family: "BPGVenuri2010";
   font-size: 40px;
@@ -1577,7 +1426,6 @@ body main section.partners-section .container .organisation-partenrs p {
   color: #c0d0de;
   margin-bottom: 45px;
 }
-
 body main section.partners-section .container .organisation-partenrs .partner-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1588,18 +1436,15 @@ body main section.partners-section .container .organisation-partenrs .partner-lo
   max-width: 731px;
   width: 100%;
 }
-
 body main section.partners-section .container .organisation-partenrs .partner-logo .logos {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   background-color: #798996;
 }
-
 body main section.new-term .container {
   padding: 100px 0px;
 }
-
 body main section.new-term .container h2 {
   display: block;
   font-size: 40px;
@@ -1607,13 +1452,11 @@ body main section.new-term .container h2 {
   color: #1d2933;
   border-bottom: 1px solid #000000;
 }
-
 body main section.new-term .container .inputs-container {
   width: 85%;
   margin: 0 auto;
   padding: 107px 0;
 }
-
 body main section.new-term .container .inputs-container form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1626,7 +1469,6 @@ body main section.new-term .container .inputs-container form {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.new-term .container .inputs-container form span {
   vertical-align: middle;
   margin-top: 10px;
@@ -1634,7 +1476,6 @@ body main section.new-term .container .inputs-container form span {
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.new-term .container .inputs-container form span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1643,11 +1484,9 @@ body main section.new-term .container .inputs-container form span div {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.new-term .container .inputs-container form span div img {
   margin-right: 15px;
 }
-
 body main section.new-term .container .inputs-container form input {
   resize: none;
   width: 100%;
@@ -1657,35 +1496,34 @@ body main section.new-term .container .inputs-container form input {
   border: 1px solid #798996;
   border-radius: 8px;
 }
-
 body main section.new-term .container .inputs-container form input:focus {
   border: 3px solid;
 }
-
 body main section.new-term .container .inputs-container form input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
+body main section.new-term .container .inputs-container form input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  font-size: 18px;
+  color: #798996;
+}
 body main section.new-term .container .inputs-container form input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.new-term .container .inputs-container form input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.new-term .container .inputs-container form input ::placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.new-term .container .inputs-container form button {
   background: #798996;
   font-family: "DejaVuSans";
@@ -1699,12 +1537,10 @@ body main section.new-term .container .inputs-container form button {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-
 body main section.new-term .container .inputs-container form button:hover {
   background-color: #eed370;
   color: #1d2933;
 }
-
 body main section.contact-form .container {
   padding: 132px 0px;
   display: -webkit-box;
@@ -1717,28 +1553,23 @@ body main section.contact-form .container {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
 body main section.contact-form .container .contact-info {
   color: #1d2933;
   margin-right: auto;
 }
-
 body main section.contact-form .container .contact-info h3 {
   font-size: 28px;
   font-family: "BPGVenuri2010";
   margin-bottom: 30px;
 }
-
 body main section.contact-form .container .contact-info h5 {
   font-family: "DejaVuSans";
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 body main section.contact-form .container .form {
   width: 60%;
 }
-
 body main section.contact-form .container .form form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1754,7 +1585,6 @@ body main section.contact-form .container .form form {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 body main section.contact-form .container .form form span {
   vertical-align: middle;
   margin-top: 10px;
@@ -1762,7 +1592,6 @@ body main section.contact-form .container .form form span {
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.contact-form .container .form form span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1771,11 +1600,9 @@ body main section.contact-form .container .form form span div {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.contact-form .container .form form span div img {
   margin-right: 15px;
 }
-
 body main section.contact-form .container .form form input,
 body main section.contact-form .container .form form textarea {
   resize: none;
@@ -1786,17 +1613,14 @@ body main section.contact-form .container .form form textarea {
   border: 1px solid #798996;
   border-radius: 8px;
 }
-
 body main section.contact-form .container .form form input:focus,
 body main section.contact-form .container .form form textarea:focus {
   border: 3px solid;
 }
-
 body main section.contact-form .container .form form :first-child {
   margin-top: 0;
 }
-
-body main section.contact-form .container .form form input[type="button"] {
+body main section.contact-form .container .form form input[type=button] {
   width: 140px;
   height: 62px;
   background: #798996;
@@ -1818,41 +1642,37 @@ body main section.contact-form .container .form form input[type="button"] {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
-body main section.contact-form .container .form form input[type="button"]:hover {
+body main section.contact-form .container .form form input[type=button]:hover {
   background-color: #eed370;
   color: #1d2933;
 }
-
 body main section.contact-form .container .form form textarea {
   position: relative;
   height: 130px;
 }
-
 body main section.contact-form .container .form form textarea::-webkit-input-placeholder {
   position: absolute;
   bottom: 23px;
 }
-
+body main section.contact-form .container .form form textarea::-moz-placeholder {
+  position: absolute;
+  bottom: 23px;
+}
 body main section.contact-form .container .form form textarea:-ms-input-placeholder {
   position: absolute;
   bottom: 23px;
 }
-
 body main section.contact-form .container .form form textarea::-ms-input-placeholder {
   position: absolute;
   bottom: 23px;
 }
-
 body main section.contact-form .container .form form textarea::placeholder {
   position: absolute;
   bottom: 23px;
 }
-
 body main section.contact-form .container .form-hide {
   display: none;
 }
-
 body main section.contact-form .for-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1861,11 +1681,9 @@ body main section.contact-form .for-contact {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 body main section.contact-form .for-contact .success-msg {
   display: none;
 }
-
 body main section.contact-form .for-contact .not-hide {
   display: block;
   padding-top: 170px;
@@ -1874,7 +1692,6 @@ body main section.contact-form .for-contact .not-hide {
   text-align: center;
   border-top: 1px solid #1d2933;
 }
-
 body main section.contact-form .for-contact .not-hide div p {
   font-size: 40px;
   font-family: "BPGVenuri2010";
@@ -1882,7 +1699,6 @@ body main section.contact-form .for-contact .not-hide div p {
   color: #1d2933;
   margin-bottom: 30px;
 }
-
 body main .error-page .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1891,7 +1707,6 @@ body main .error-page .container {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 body main .error-page .container .error-container {
   padding: 110px 0 222px 0;
   max-width: 1120px;
@@ -1906,13 +1721,11 @@ body main .error-page .container .error-container {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .error-page .container .error-container .error-text .text-404 {
   font-size: 96px;
   line-height: 120px;
   color: #1d2933;
 }
-
 body main .error-page .container .error-container .error-text .not-found {
   font-size: 40px;
   line-height: 45px;
@@ -1920,7 +1733,6 @@ body main .error-page .container .error-container .error-text .not-found {
   font-family: "BPGVenuri2010";
   margin: 30px 0;
 }
-
 body main .error-page .container .error-container .error-text a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1942,17 +1754,14 @@ body main .error-page .container .error-container .error-text a {
   font-size: 18px;
   font-family: "DejaVuSans";
 }
-
 body main .error-page .container .error-container .error-text a:hover {
   cursor: pointer;
   background-color: #eed370;
   color: #000000;
 }
-
 body main .profile-section {
   padding: 70px 0 200px 0;
 }
-
 body main .profile-section .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1964,7 +1773,6 @@ body main .profile-section .container {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
 body main .profile-section .container .profile-nav .user-photo {
   width: 230px;
   height: 230px;
@@ -1981,27 +1789,22 @@ body main .profile-section .container .profile-nav .user-photo {
           align-items: center;
   position: relative;
 }
-
 body main .profile-section .container .profile-nav .user-photo .corner-img {
   position: absolute;
   bottom: 10px;
   right: 20px;
 }
-
 body main .profile-section .container .profile-nav .user-photo .image-upload > input {
   display: none;
 }
-
 body main .profile-section .container .profile-nav .user-photo .image-upload img {
   cursor: pointer;
 }
-
 body main .profile-section .container .profile-nav .user-photo .change-photo {
   width: 230px;
   height: 230px;
   border-radius: 50%;
 }
-
 body main .profile-section .container .profile-nav .text-nav .user-name {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2011,23 +1814,19 @@ body main .profile-section .container .profile-nav .text-nav .user-name {
           align-items: center;
   margin: 50px 0;
 }
-
 body main .profile-section .container .profile-nav .text-nav .user-name h2 {
   margin-right: 20px;
   font-family: "BPGVenuri2010";
   font-size: 28px;
   color: #1d2933;
 }
-
 body main .profile-section .container .profile-nav .text-nav .user-name img {
   cursor: pointer;
 }
-
 body main .profile-section .container .profile-nav .text-nav .nav-ul {
   max-width: 230px;
   width: 100%;
 }
-
 body main .profile-section .container .profile-nav .text-nav .nav-ul li {
   font-family: "DejaVuSans";
   font-size: 18px;
@@ -2035,7 +1834,6 @@ body main .profile-section .container .profile-nav .text-nav .nav-ul li {
   margin-bottom: 18px;
   cursor: pointer;
 }
-
 body main .profile-section .container .profile-nav .text-nav .nav-ul li .sub-ul-definition li,
 body main .profile-section .container .profile-nav .text-nav .nav-ul li .sub-ul-termin li {
   margin-left: 42px;
@@ -2044,17 +1842,14 @@ body main .profile-section .container .profile-nav .text-nav .nav-ul li .sub-ul-
   margin-top: 10px;
   cursor: pointer;
 }
-
 body main .profile-section .container .profile-nav .text-nav .nav-ul li a {
   color: #000000;
   font-family: "DejaVuSans";
   font-size: 18px;
 }
-
 body main .profile-section .container .right-inner {
   width: 60%;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result {
   opacity: 0;
   padding-top: 50px;
@@ -2073,7 +1868,6 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .termin-tag-social {
   width: 100%;
   border-bottom: 1px solid #1d2933;
@@ -2088,7 +1882,6 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .termin-tag-social .tagandsocial {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2100,7 +1893,6 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .termin-tag-social .tagandsocial .fb-icon {
   width: 41px;
   height: 41px;
@@ -2116,14 +1908,12 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
   background-color: #798996;
   border-radius: 50%;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .termin-tag-social h2 {
   font-family: "DejaVuSans";
   font-size: 40px;
   color: #1d2933;
   text-transform: uppercase;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .description {
   width: 100%;
   background-color: #e9e9ed;
@@ -2131,7 +1921,6 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
   padding: 20px 0 20px 20px;
   position: relative;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .description .like {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2153,26 +1942,22 @@ body main .profile-section .container .right-inner .profile-termins-result .resu
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .description .like img {
   color: #798996;
   width: 41px;
   height: 41px;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .description h2 {
   font-family: "DejaVuSans";
   font-size: 40px;
   color: #1d2933;
   margin-bottom: 17px;
 }
-
 body main .profile-section .container .right-inner .profile-termins-result .result .description .spans .date {
   font-family: "BPGVenuri2010";
   font-size: 14px;
   color: #798996;
 }
-
 body main .profile-section .container .right-inner .profile-edit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2189,7 +1974,6 @@ body main .profile-section .container .right-inner .profile-edit {
           align-items: flex-end;
   padding-top: 50px;
 }
-
 body main .profile-section .container .right-inner .profile-edit span {
   color: red;
   display: -webkit-box;
@@ -2202,11 +1986,9 @@ body main .profile-section .container .right-inner .profile-edit span {
       align-self: flex-start;
   margin-top: 5px;
 }
-
 body main .profile-section .container .right-inner .profile-edit span img {
   margin-right: 5px;
 }
-
 body main .profile-section .container .right-inner .profile-edit input {
   background: none;
   border: #798996 1px solid;
@@ -2218,40 +2000,38 @@ body main .profile-section .container .right-inner .profile-edit input {
   font-size: 20px;
   font-family: "DejaVuSans";
 }
-
 body main .profile-section .container .right-inner .profile-edit input:focus {
   border: 3px solid;
 }
-
 body main .profile-section .container .right-inner .profile-edit input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
+body main .profile-section .container .right-inner .profile-edit input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  font-size: 18px;
+  color: #798996;
+}
 body main .profile-section .container .right-inner .profile-edit input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main .profile-section .container .right-inner .profile-edit input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main .profile-section .container .right-inner .profile-edit input ::placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main .profile-section .container .right-inner .profile-edit .password-input {
   width: 100%;
   position: relative;
 }
-
 body main .profile-section .container .right-inner .profile-edit .password-input img {
   position: absolute;
   right: 20px;
@@ -2260,7 +2040,6 @@ body main .profile-section .container .right-inner .profile-edit .password-input
           transform: translateY(50%);
   cursor: pointer;
 }
-
 body main .profile-section .container .right-inner .profile-edit button {
   background: #798996;
   outline: none;
@@ -2275,17 +2054,14 @@ body main .profile-section .container .right-inner .profile-edit button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 body main .profile-section .container .right-inner .profile-edit button:hover {
   background-color: #eed370;
   text-decoration: none;
   color: #000000;
 }
-
 body main .profile-section .container .right-inner .my-terms .term {
   margin-bottom: 50px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2299,7 +2075,6 @@ body main .profile-section .container .right-inner .my-terms .term .title {
   border-bottom: 1px solid #1d2933;
   margin-bottom: 16px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .title .term-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2308,13 +2083,11 @@ body main .profile-section .container .right-inner .my-terms .term .title .term-
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .title .term-title h2 {
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .title .social-fb {
   background: #798996;
   width: 40px;
@@ -2330,33 +2103,27 @@ body main .profile-section .container .right-inner .my-terms .term .title .socia
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .active {
   height: 141px !important;
   overflow: auto !important;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   height: 18px;
   overflow: hidden;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition::-webkit-scrollbar {
   display: none;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-header {
   cursor: pointer;
   margin-bottom: 16px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-header span {
   font-size: 18px;
   font-family: "DejaVuSans";
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-box {
   background: #e9e9ed;
   font-family: "DejaVuSans";
@@ -2371,16 +2138,13 @@ body main .profile-section .container .right-inner .my-terms .term .definition .
       -ms-flex-align: end;
           align-items: flex-end;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-box .definition-info h2 {
   font-size: 40px;
   margin-bottom: 9px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-box .definition-info span {
   font-size: 18px;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-box .like {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2392,17 +2156,14 @@ body main .profile-section .container .right-inner .my-terms .term .definition .
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main .profile-section .container .right-inner .my-terms .term .definition .definition-box .like span {
   font-size: 14px;
   color: #798996;
 }
-
 body main section.success-message .container {
   padding-top: 50px;
   min-height: 500px;
 }
-
 body main section.success-message .container .success-msg {
   display: block;
   padding-top: 170px;
@@ -2411,7 +2172,6 @@ body main section.success-message .container .success-msg {
   text-align: center;
   border-top: 1px solid #1d2933;
 }
-
 body main section.success-message .container .success-msg div p {
   font-size: 40px;
   font-family: "BPGVenuri2010";
@@ -2419,11 +2179,9 @@ body main section.success-message .container .success-msg div p {
   color: #1d2933;
   margin-bottom: 30px;
 }
-
 body main section.definition-offer .container {
   padding: 80px 0;
 }
-
 body main section.definition-offer .container .definition-header .definition-title {
   padding-bottom: 5px;
   margin-bottom: 18px;
@@ -2438,13 +2196,11 @@ body main section.definition-offer .container .definition-header .definition-tit
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.definition-offer .container .definition-header .definition-title h1 {
   font-size: 40px;
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
 }
-
 body main section.definition-offer .container .definition-header .definition-title .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2456,26 +2212,21 @@ body main section.definition-offer .container .definition-header .definition-tit
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.definition-offer .container .definition-header .definition-title .info .fb-icon {
   margin-left: 35px;
 }
-
 body main section.definition-offer .container .definition-header p {
   color: #798996;
 }
-
 body main section.definition-offer .container .definition-header .eng-def {
   font-family: "Quicksand", sans-serif;
   margin-bottom: 12px;
 }
-
 body main section.definition-offer .container .definition-header .ka-def {
   font-family: "DejaVuSans";
   padding-bottom: 20px;
   border-bottom: 1px solid #1d2933;
 }
-
 body main section.definition-offer .container form {
   width: 80%;
   margin: 0 auto;
@@ -2490,7 +2241,6 @@ body main section.definition-offer .container form {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 body main section.definition-offer .container form span {
   vertical-align: middle;
   margin-top: 10px;
@@ -2498,7 +2248,6 @@ body main section.definition-offer .container form span {
   color: #fe4444;
   font-family: "DejaVuSans";
 }
-
 body main section.definition-offer .container form span div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2507,11 +2256,9 @@ body main section.definition-offer .container form span div {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.definition-offer .container form span div img {
   margin-right: 15px;
 }
-
 body main section.definition-offer .container form input {
   width: 100%;
   padding: 23px 40px;
@@ -2520,35 +2267,34 @@ body main section.definition-offer .container form input {
   border: 1px solid #798996;
   border-radius: 8px;
 }
-
 body main section.definition-offer .container form input:focus {
   border: 3px solid;
 }
-
 body main section.definition-offer .container form input ::-webkit-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
+body main section.definition-offer .container form input ::-moz-placeholder {
+  font-family: "DejaVuSans";
+  font-size: 18px;
+  color: #798996;
+}
 body main section.definition-offer .container form input :-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.definition-offer .container form input ::-ms-input-placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.definition-offer .container form input ::placeholder {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #798996;
 }
-
 body main section.definition-offer .container form button {
   background: #798996;
   font-family: "DejaVuSans";
@@ -2562,17 +2308,14 @@ body main section.definition-offer .container form button {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-
 body main section.definition-offer .container form button:hover {
   background-color: #eed370;
   color: #1d2933;
 }
-
 body main section.definition-offer .container .other-terms {
   width: 80%;
   margin: 0 auto;
 }
-
 body main section.definition-offer .container .other-terms .description {
   width: 100%;
   background-color: #e9e9ed;
@@ -2589,7 +2332,6 @@ body main section.definition-offer .container .other-terms .description {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body main section.definition-offer .container .other-terms .description .like {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2611,26 +2353,22 @@ body main section.definition-offer .container .other-terms .description .like {
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
 }
-
 body main section.definition-offer .container .other-terms .description .like img {
   color: #798996;
   width: 41px;
   height: 41px;
 }
-
 body main section.definition-offer .container .other-terms .description .info h2 {
   font-family: "DejaVuSans";
   font-size: 40px;
   color: #1d2933;
   margin-bottom: 12px;
 }
-
 body main section.definition-offer .container .other-terms .description .info .author {
   font-family: "DejaVuSans";
   font-size: 18px;
   color: #1d2933;
 }
-
 body main section.definition-offer .container .other-terms .description .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2647,25 +2385,21 @@ body main section.definition-offer .container .other-terms .description .about {
           flex-direction: column;
   color: #798996;
 }
-
 body main section.definition-offer .container .other-terms .description .about .count {
   font-family: "DejaVuSans";
   margin-bottom: 9px;
 }
-
 body main section.definition-offer .container .other-terms .description .about .date {
   font-family: "BPGVenuri2010";
   font-size: 14px;
   color: #798996;
 }
-
 body footer {
   width: 100%;
   padding: 90px 0;
-  -webkit-box-shadow: 0px -3px 6px #00000029;
-          box-shadow: 0px -3px 6px #00000029;
+  -webkit-box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1607843137);
+          box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1607843137);
 }
-
 body footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2674,11 +2408,9 @@ body footer .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 body footer .container .left-block-social a {
   color: #1d2933;
 }
-
 body footer .container .left-block-social a .logo-conc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2688,20 +2420,17 @@ body footer .container .left-block-social a .logo-conc {
           align-items: center;
   display: flex;
 }
-
 body footer .container .left-block-social a .logo-conc p {
   font-family: "BPGVenuri2010";
   font-size: 28px;
   line-height: 32px;
 }
-
 body footer .container .left-block-social .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
 }
-
 body footer .container .left-block-social .social-icons .circle {
   margin-right: 70px;
   width: 46px;
@@ -2721,24 +2450,19 @@ body footer .container .left-block-social .social-icons .circle {
           align-items: center;
   cursor: pointer;
 }
-
 body footer .container .left-block-social .social-icons .circle a {
   color: white;
   font-size: x-large;
 }
-
 body footer .container .left-block-social .social-icons .insta:hover {
   background-color: #833ab4;
 }
-
 body footer .container .left-block-social .social-icons .twitter:hover {
   background-color: #329cea;
 }
-
 body footer .container .left-block-social .social-icons .fb:hover {
   background: #0f90f3;
 }
-
 body footer .container .middle-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2747,7 +2471,6 @@ body footer .container .middle-block {
       -ms-flex-align: center;
           align-items: center;
 }
-
 body footer .container .middle-block .contact-info p {
   font-size: 18px;
   font-family: "DejaVuSans";
@@ -2755,19 +2478,15 @@ body footer .container .middle-block .contact-info p {
   transition: all ease-in-out 0.2s;
   cursor: pointer;
 }
-
 body footer .container .middle-block .contact-info p:hover {
   color: #eed370;
 }
-
 body footer .container .middle-block .contact-info p:nth-child(1) {
   margin-bottom: 32px;
 }
-
 body footer .container .middle-block .contact-info p:nth-child(2) {
   font-weight: 600;
 }
-
 body footer .container .right-block-partners {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2780,7 +2499,6 @@ body footer .container .right-block-partners {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-
 body footer .container .right-block-partners .partners {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2793,7 +2511,6 @@ body footer .container .right-block-partners .partners {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-
 body footer .container .right-block-partners .partners p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2805,11 +2522,9 @@ body footer .container .right-block-partners .partners p {
   transition: all ease-in-out 0.2s;
   cursor: pointer;
 }
-
 body footer .container .right-block-partners .partners p:hover {
   color: #eed370;
 }
-
 body footer .container .right-block-partners .partners .partners-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2818,19 +2533,16 @@ body footer .container .right-block-partners .partners .partners-logo {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 body footer .container .right-block-partners .partners .partners-logo .div-logo {
   width: 46px;
   height: 46px;
   background-color: #798996;
   border-radius: 50%;
 }
-
 body footer .container .right-block-partners .partners .partners-logo :nth-child(2) {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 body footer .container .tablet-responsive {
   display: none;
 }
@@ -3153,15 +2865,15 @@ body footer .container .tablet-responsive {
     display: flex;
   }
   body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper,
-  body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 {
+body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 {
     width: 80%;
   }
   body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper .swiper-wrapper,
-  body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 .swiper-wrapper {
+body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 .swiper-wrapper {
     width: 90%;
   }
   body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper .swiper-wrapper .swiper-slide,
-  body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 .swiper-wrapper .swiper-slide {
+body main section.bank-section .container .alphabets-search .double .left-alphabet .cont .mySwiper2 .swiper-wrapper .swiper-slide {
     margin-right: 0px;
     text-align: center;
     font-size: 18px;
@@ -3249,21 +2961,23 @@ body footer .container .tablet-responsive {
     height: 30px;
   }
 }
-
 @media only screen and (max-width: 1300px) and (min-width: 700px) {
   body main section.definition-offer .container .definition-header .definition-title h1 {
     font-size: 32px;
   }
 }
-
 @media only screen and (max-width: 1300px) {
   body main section.definition-offer .container .definition-header .eng-def {
     font-size: 18px;
   }
+}
+@media only screen and (max-width: 1300px) {
   body main section.definition-offer .container .definition-header .ka-def {
     font-size: 18px;
     margin-top: 20px;
   }
+}
+@media only screen and (max-width: 1300px) {
   body main section.definition-offer .container .other-terms .description {
     margin-bottom: 20px;
   }
@@ -3273,6 +2987,8 @@ body footer .container .tablet-responsive {
   body main section.definition-offer .container .other-terms .description .info .author {
     font-size: 12px;
   }
+}
+@media only screen and (max-width: 1300px) {
   body main section.contact-form .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3286,6 +3002,8 @@ body footer .container .tablet-responsive {
   body main section.contact-form .container .form {
     width: 100%;
   }
+}
+@media only screen and (max-width: 1300px) {
   body footer {
     padding: 30px 0;
   }
@@ -3315,19 +3033,16 @@ body footer .container .tablet-responsive {
     margin-left: -30px;
   }
 }
-
 @media only screen and (max-width: 1300px) and (min-width: 768px) {
   body footer .container .middle-block {
     display: none;
   }
 }
-
 @media only screen and (max-width: 1300px) and (min-width: 768px) {
   body footer .container .right-block-partners {
     display: none;
   }
 }
-
 @media only screen and (max-width: 1300px) and (min-width: 768px) {
   body footer .container .tablet-responsive {
     display: block;
@@ -3372,7 +3087,6 @@ body footer .container .tablet-responsive {
     margin-left: 30px;
   }
 }
-
 @media only screen and (max-width: 767px) {
   body header {
     padding: 10px 0;
@@ -3839,4 +3553,3 @@ body footer .container .tablet-responsive {
     height: 33px;
   }
 }
-/*# sourceMappingURL=global.css.map */
