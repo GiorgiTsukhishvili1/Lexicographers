@@ -1423,7 +1423,7 @@ body main section.partners-section .container .organisation-partenrs p {
   font-family: "BPGVenuri2010";
   font-size: 40px;
   line-height: 45px;
-  color: #c0d0de;
+  color: #1d2933;
   margin-bottom: 45px;
 }
 body main section.partners-section .container .organisation-partenrs .partner-logo {
@@ -1440,7 +1440,7 @@ body main section.partners-section .container .organisation-partenrs .partner-lo
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  background-color: #798996;
+  background-color: #e9e9ed;
 }
 body main section.new-term .container {
   padding: 100px 0px;
@@ -2493,6 +2493,18 @@ body footer .container .middle-block .contact-info p {
   transition: all ease-in-out 0.2s;
   cursor: pointer;
 }
+body footer .container .middle-block .contact-info p a:link,
+body footer .container .middle-block .contact-info p a:visited {
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  color: #000000;
+}
+body footer .container .middle-block .contact-info p a:link:hover,
+body footer .container .middle-block .contact-info p a:visited:hover {
+  color: #eed370;
+}
 body footer .container .middle-block .contact-info p:hover {
   color: #eed370;
 }
@@ -3078,6 +3090,17 @@ body main section.bank-section .container .alphabets-search .double .left-alphab
     transition: 0.5s;
     cursor: pointer;
     font-weight: bold;
+  }
+  body footer .container .tablet-responsive .contact-info p a:link,
+body footer .container .tablet-responsive .contact-info p a:visited {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #798996;
+  }
+  body footer .container .tablet-responsive .contact-info p a:link:hover,
+body footer .container .tablet-responsive .contact-info p a:visited:hover {
+    color: #eed370;
   }
   body footer .container .tablet-responsive .contact-info p:hover {
     color: #eed370;
