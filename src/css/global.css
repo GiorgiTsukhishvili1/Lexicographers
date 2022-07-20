@@ -1423,7 +1423,7 @@ body main section.partners-section .container .organisation-partenrs p {
   font-family: "BPGVenuri2010";
   font-size: 40px;
   line-height: 45px;
-  color: #c0d0de;
+  color: #1d2933;
   margin-bottom: 45px;
 }
 body main section.partners-section .container .organisation-partenrs .partner-logo {
@@ -1440,7 +1440,7 @@ body main section.partners-section .container .organisation-partenrs .partner-lo
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  background-color: #798996;
+  background-color: #e9e9ed;
 }
 body main section.new-term .container {
   padding: 100px 0px;
