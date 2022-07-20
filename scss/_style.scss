@@ -1738,6 +1738,18 @@ body {
             transition: all ease-in-out 0.2s;
             cursor: pointer;
 
+            a:link,
+            a:visited {
+              text-decoration: none;
+              transition: all ease-in-out 0.2s;
+              cursor: pointer;
+              color: $black;
+
+              &:hover {
+                color: $tagsyellow;
+              }
+            }
+
             &:hover {
               color: $tagsyellow;
             }
@@ -2326,6 +2338,18 @@ body {
                 transition: 0.5s;
                 cursor: pointer;
                 font-weight: bold;
+
+                a:link,
+                a:visited {
+                  text-decoration: none;
+                  transition: 0.5s;
+                  color: $btnGray;
+
+                  &:hover {
+                    color: $tagsyellow;
+                  }
+                }
+
                 &:hover {
                   color: $tagsyellow;
                 }
