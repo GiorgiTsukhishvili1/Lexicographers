@@ -1716,14 +1716,29 @@ body {
               font-size: x-large;
             }
           }
+
           .insta:hover {
-            background-color: #833ab4;
+            background-color: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+            a {
+              color: $btnGray;
+            }
           }
           .twitter:hover {
-            background-color: #329cea;
+            background-color: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+
+            a {
+              color: $btnGray;
+            }
           }
           .fb:hover {
-            background: #0f90f3;
+            background: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+
+            a {
+              color: $btnGray;
+            }
           }
         }
       }

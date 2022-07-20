@@ -2455,13 +2455,28 @@ body footer .container .left-block-social .social-icons .circle a {
   font-size: x-large;
 }
 body footer .container .left-block-social .social-icons .insta:hover {
-  background-color: #833ab4;
+  background-color: #eed370;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+body footer .container .left-block-social .social-icons .insta:hover a {
+  color: #798996;
 }
 body footer .container .left-block-social .social-icons .twitter:hover {
-  background-color: #329cea;
+  background-color: #eed370;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+body footer .container .left-block-social .social-icons .twitter:hover a {
+  color: #798996;
 }
 body footer .container .left-block-social .social-icons .fb:hover {
-  background: #0f90f3;
+  background: #eed370;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+body footer .container .left-block-social .social-icons .fb:hover a {
+  color: #798996;
 }
 body footer .container .middle-block {
   display: -webkit-box;
