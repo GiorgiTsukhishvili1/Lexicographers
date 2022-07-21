@@ -127,11 +127,17 @@ body {
         ul {
           display: flex;
           align-items: center;
+
           li {
             position: relative;
             line-height: 40px;
             margin-right: 45px;
             text-align: center;
+
+            .active {
+              color: $tagsyellow;
+            }
+
             a {
               color: $darkBlue;
               font-size: 18px;
@@ -148,6 +154,13 @@ body {
         }
       }
       .sign-in-btn {
+        .active {
+          background-color: $tagsyellow;
+          text-decoration: none;
+          color: $black;
+          border: none;
+        }
+
         a {
           background-color: $btnGray;
           color: $white;

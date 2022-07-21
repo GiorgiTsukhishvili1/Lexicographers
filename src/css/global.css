@@ -332,6 +332,9 @@ body header .container nav ul li {
   margin-right: 45px;
   text-align: center;
 }
+body header .container nav ul li .active {
+  color: #eed370;
+}
 body header .container nav ul li a {
   color: #1d2933;
   font-size: 18px;
@@ -344,6 +347,12 @@ body header .container nav ul li a:hover {
 }
 body header .container nav ul :last-child {
   margin-right: 0;
+}
+body header .container .sign-in-btn .active {
+  background-color: #eed370;
+  text-decoration: none;
+  color: #000000;
+  border: none;
 }
 body header .container .sign-in-btn a {
   background-color: #798996;
