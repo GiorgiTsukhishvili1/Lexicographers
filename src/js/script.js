@@ -590,7 +590,7 @@ if (terms) {
       if (auth === "true") {
         item.children[0].href = "src/pages/definition.html";
       } else {
-        item.children[0].href = "src/pages/sign_in.html";
+        item.children[0].href = "./src/pages/new_term.html";
       }
     });
   });
@@ -599,5 +599,7 @@ if (terms) {
 const prevLetter = document.querySelectorAll(".letters-left");
 const nextLetter = document.querySelectorAll(".letters-right");
 if (document.querySelector(".collect-letters")) {
-  const letter = document.querySelector(".collect-letters").getElementsByTagName("span");
+  const letter = document
+    .querySelector(".collect-letters")
+    .getElementsByTagName("span");
 }
