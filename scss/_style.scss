@@ -71,22 +71,30 @@
     color: $darkBlue;
   }
 }
-#project{
+#project {
+  h5 {
+    font-family: $venuri;
+    font-size: 40px;
+    line-height: 45px;
+    color: $darkBlue;
+    width: 100%;
+  }
+
   margin-bottom: 100px;
-  .container{
+  .container {
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
-    .inner-cont{
+    .inner-cont {
       width: 280px;
-      border-right: 4px solid #EED370;
+      border-right: 4px solid #eed370;
       padding-right: 4rem;
-      h3{
+      h3 {
         font-family: $venuri;
         font-size: 20px;
         margin-bottom: 0.3rem;
       }
-      p{
+      p {
         font-family: $dejavu;
         font-size: 15px;
         font-weight: normal;
@@ -119,11 +127,17 @@ body {
         ul {
           display: flex;
           align-items: center;
+
           li {
             position: relative;
             line-height: 40px;
             margin-right: 45px;
             text-align: center;
+
+            .active {
+              color: $tagsyellow;
+            }
+
             a {
               color: $darkBlue;
               font-size: 18px;
@@ -140,6 +154,13 @@ body {
         }
       }
       .sign-in-btn {
+        .active {
+          background-color: $tagsyellow;
+          text-decoration: none;
+          color: $black;
+          border: none;
+        }
+
         a {
           background-color: $btnGray;
           color: $white;
@@ -308,11 +329,11 @@ body {
                 margin-right: 15px;
                 text-transform: uppercase;
               }
-              .cont{
+              .cont {
                 display: none;
               }
-              .desktop-alphabet{
-                margin-bottom: 10px
+              .desktop-alphabet {
+                margin-bottom: 10px;
               }
             }
             .right-search {
@@ -888,7 +909,7 @@ body {
       right: 50px;
     }
 
-    // Second page ----- abour project
+    // Second page ----- about project
     section.about-project-section {
       .container {
         .first {
@@ -952,7 +973,7 @@ body {
             font-family: $venuri;
             font-size: 40px;
             line-height: 45px;
-            color: $lightGray;
+            color: $darkBlue;
             margin-bottom: 45px;
           }
           .partner-logo {
@@ -963,7 +984,7 @@ body {
               width: 180px;
               height: 180px;
               border-radius: 50%;
-              background-color: $btnGray;
+              background-color: $terminsGrayBg;
             }
           }
         }
@@ -1708,14 +1729,29 @@ body {
               font-size: x-large;
             }
           }
+
           .insta:hover {
-            background-color: #833ab4;
+            background-color: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+            a {
+              color: $btnGray;
+            }
           }
           .twitter:hover {
-            background-color: #329cea;
+            background-color: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+
+            a {
+              color: $btnGray;
+            }
           }
           .fb:hover {
-            background: #0f90f3;
+            background: $tagsyellow;
+            transition: all ease-in-out 0.3s;
+
+            a {
+              color: $btnGray;
+            }
           }
         }
       }
@@ -1729,6 +1765,18 @@ body {
             font-family: $dejavu;
             transition: all ease-in-out 0.2s;
             cursor: pointer;
+
+            a:link,
+            a:visited {
+              text-decoration: none;
+              transition: all ease-in-out 0.2s;
+              cursor: pointer;
+              color: $black;
+
+              &:hover {
+                color: $tagsyellow;
+              }
+            }
 
             &:hover {
               color: $tagsyellow;
@@ -2123,7 +2171,7 @@ body {
                     display: block;
                   }
                 }
-                .desktop-alphabet{
+                .desktop-alphabet {
                   display: none;
                 }
                 .cont {
@@ -2318,6 +2366,18 @@ body {
                 transition: 0.5s;
                 cursor: pointer;
                 font-weight: bold;
+
+                a:link,
+                a:visited {
+                  text-decoration: none;
+                  transition: 0.5s;
+                  color: $btnGray;
+
+                  &:hover {
+                    color: $tagsyellow;
+                  }
+                }
+
                 &:hover {
                   color: $tagsyellow;
                 }
